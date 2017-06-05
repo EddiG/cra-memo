@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component should rendered successfully 1`] = `
+<img
+  alt={undefined}
+  className="sc-bdVaJa eAwGjB"
+  src={undefined}
+/>
+`;

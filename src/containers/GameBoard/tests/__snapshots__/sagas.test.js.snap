@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameBoard saga generateCards should dispatch the action UPDATE_CARDS with an array of cards 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`GameBoard saga generateCards should dispatch the action UPDATE_CARDS with an array of cards 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {
+        "cards": Array [
+          Object {
+            "backImageId": "backImage1",
+            "frontImageId": "frontImage1",
+            "id": "card1",
+            "isGuessed": false,
+            "isOpened": false,
+          },
+          Object {
+            "backImageId": "backImage1",
+            "frontImageId": "frontImage2",
+            "id": "card2",
+            "isGuessed": false,
+            "isOpened": false,
+          },
+        ],
+      },
+      "type": "UPDATE_CARDS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`GameBoard saga refreshCards should call generateCards function 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`GameBoard saga refreshCards should dispatch an action CLOSE_CARDS 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {},
+      "type": "CLOSE_CARDS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`GameBoard saga refreshCards should wait until cards would be closed 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      1000,
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

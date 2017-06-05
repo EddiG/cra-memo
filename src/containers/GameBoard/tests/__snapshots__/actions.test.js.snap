@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameBoard action generateCards should dispatch an action GENERATE_CARDS 1`] = `
+Object {
+  "payload": Object {},
+  "type": "GENERATE_CARDS",
+}
+`;
+
+exports[`GameBoard action refreshCards should dispatch an action REFRESH_CARDS 1`] = `
+Object {
+  "payload": Object {},
+  "type": "REFRESH_CARDS",
+}
+`;

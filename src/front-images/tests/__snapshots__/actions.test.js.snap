@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`preloadImagesComplete should return an action PRELOAD_FRONT_IMAGES_COMPLETE 1`] = `
+Object {
+  "payload": Object {},
+  "type": "PRELOAD_FRONT_IMAGES_COMPLETE",
+}
+`;
+
+exports[`preloadImagesRequire should return an action PRELOAD_FRONT_IMAGES_REQUIRE 1`] = `
+Object {
+  "payload": Object {},
+  "type": "PRELOAD_FRONT_IMAGES_REQUIRE",
+}
+`;

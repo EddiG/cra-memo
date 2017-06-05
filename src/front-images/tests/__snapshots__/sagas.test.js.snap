@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`preloadImages saga should call images preloader 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      Array [
+        Object {
+          "src": "",
+        },
+        Object {
+          "src": "",
+        },
+      ],
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`preloadImages saga should dispatch PRELOAD_FRONT_IMAGES_COMPLETE 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {},
+      "type": "PRELOAD_FRONT_IMAGES_COMPLETE",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`preloadImages saga should select images for preload 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;

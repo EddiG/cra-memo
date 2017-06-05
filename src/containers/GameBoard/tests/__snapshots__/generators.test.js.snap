@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameBoard generator generateCards should return the array of cards 1`] = `
+Array [
+  Object {
+    "backImageId": "backImage1",
+    "frontImageId": "frontImage1",
+    "id": "card1",
+    "isGuessed": false,
+    "isOpened": false,
+    "pairCardId": "card3",
+  },
+  Object {
+    "backImageId": "backImage1",
+    "frontImageId": "frontImage1",
+    "id": "card3",
+    "isGuessed": false,
+    "isOpened": false,
+    "pairCardId": "card1",
+  },
+  Object {
+    "backImageId": "backImage1",
+    "frontImageId": "frontImage2",
+    "id": "card2",
+    "isGuessed": false,
+    "isOpened": false,
+    "pairCardId": "card4",
+  },
+  Object {
+    "backImageId": "backImage1",
+    "frontImageId": "frontImage2",
+    "id": "card4",
+    "isGuessed": false,
+    "isOpened": false,
+    "pairCardId": "card2",
+  },
+]
+`;

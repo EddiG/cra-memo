@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards selector selectCards should return the array of cards from the state 1`] = `
+Array [
+  Object {
+    "backImage": "source1",
+    "frontImage": "source1",
+    "id": "card1",
+    "isGuessed": false,
+    "isOpened": true,
+  },
+  Object {
+    "backImage": "source2",
+    "frontImage": "source2",
+    "id": "card2",
+    "isGuessed": true,
+    "isOpened": true,
+  },
+]
+`;
+
+exports[`Cards selector selectOpenedNotGuessedCards should return the array of opened cards, except guessed 1`] = `
+Array [
+  Object {
+    "backImage": "source1",
+    "frontImage": "source1",
+    "id": "card1",
+    "isGuessed": false,
+    "isOpened": true,
+  },
+]
+`;

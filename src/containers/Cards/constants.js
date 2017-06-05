@@ -1,0 +1,5 @@
+export const UPDATE_CARDS = 'UPDATE_CARDS';
+export const CLOSE_CARDS = 'CLOSE_CARDS';
+export const TRIGGER_CARD = 'TRIGGER_CARD';
+export const TRIGGER_CARD_ASYNC = 'TRIGGER_CARD_ASYNC';
+export const VALIDATE_CARDS = 'VALIDATE_CARDS';

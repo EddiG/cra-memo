@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectImagesSources should return an array of front images from state 1`] = `
+Array [
+  "source1",
+  "source2",
+]
+`;

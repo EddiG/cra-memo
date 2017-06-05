@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cards action closeCards should dispatch an action CLOSE_CARDS 1`] = `
+Object {
+  "payload": Object {},
+  "type": "CLOSE_CARDS",
+}
+`;
+
+exports[`cards action triggerCard should return an action TRIGGER_CARD 1`] = `
+Object {
+  "payload": Object {
+    "id": "card1",
+  },
+  "type": "TRIGGER_CARD",
+}
+`;
+
+exports[`cards action triggerCardAsync should return an action TRIGGER_CARD_ASYNC 1`] = `
+Object {
+  "payload": Object {
+    "id": "card1",
+  },
+  "type": "TRIGGER_CARD_ASYNC",
+}
+`;
+
+exports[`cards action updateCards should return an action UPDATE_CARDS 1`] = `
+Object {
+  "payload": Object {
+    "cards": Array [
+      Object {
+        "backImageId": "backImage1",
+        "frontImageId": "frontImage1",
+        "id": "card1",
+        "isGuessed": false,
+        "isOpened": false,
+      },
+      Object {
+        "backImageId": "backImage2",
+        "frontImageId": "frontImage2",
+        "id": "card2",
+        "isGuessed": false,
+        "isOpened": false,
+      },
+    ],
+  },
+  "type": "UPDATE_CARDS",
+}
+`;

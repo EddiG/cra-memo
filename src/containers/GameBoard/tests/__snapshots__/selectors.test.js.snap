@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameBoard selector selectBackImages should return back images from the store 1`] = `
+Array [
+  "backImage1",
+  "backImage2",
+]
+`;
+
+exports[`GameBoard selector selectFrontImages should return front images from the store 1`] = `
+Array [
+  "frontImage1",
+  "frontImage2",
+]
+`;

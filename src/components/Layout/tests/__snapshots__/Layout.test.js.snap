@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component should rendered successfully 1`] = `
+<div
+  className="sc-bdVaJa eUYAYB"
+>
+  <header
+    className="sc-bwzfXH cgfKFj"
+  >
+    <h1
+      className="sc-htpNat IPSgH"
+    >
+      Memo
+    </h1>
+  </header>
+  <main
+    className="sc-bxivhb ODRvI"
+  />
+</div>
+`;

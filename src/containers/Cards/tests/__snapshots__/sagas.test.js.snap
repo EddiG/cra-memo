@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cards saga triggerCardAsync when we have more than one opened cards should dispatch TRIGGER_CARD 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {
+        "id": "card1",
+      },
+      "type": "TRIGGER_CARD",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have more than one opened cards should dispatch VALIDATE_CARDS 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "VALIDATE_CARDS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have more than one opened cards should select opened cards 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have not opened cards should dispatch TRIGGER_CARD 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {
+        "id": "card1",
+      },
+      "type": "TRIGGER_CARD",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have not opened cards should select opened cards 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have one opened card should dispatch TRIGGER_CARD 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {
+        "id": "card1",
+      },
+      "type": "TRIGGER_CARD",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have one opened card should select opened cards 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`cards saga triggerCardAsync when we have one opened card should start in race validateCardsAsync saga and TRIGGER_CARD_ASYNC 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "RACE": Object {
+    "cancel": Object {
+      "@@redux-saga/IO": true,
+      "TAKE": Object {
+        "pattern": "TRIGGER_CARD_ASYNC",
+      },
+    },
+    "task": Object {
+      "@@redux-saga/IO": true,
+      "CALL": Object {
+        "args": Array [],
+        "context": null,
+        "fn": [Function],
+      },
+    },
+  },
+}
+`;
