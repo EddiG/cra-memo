@@ -2,7 +2,7 @@
 Example at [memo.surge.sh](https://memo.surge.sh)  
 Based on [create-react-app](https://github.com/facebookincubator/create-react-app)  
 ## Description
-Simple game for training your memory... and my skills 😉  
+The simple game for training your memory...
 Thanks to latest CRA [updates](https://github.com/jevakallio/redux-offline/blob/master/README.md#progressive-web-apps), this app works in offline. Furthermore you can add it on the mobile desktop on Android device and play in offline too 👍
 ## Use
 ```bash
